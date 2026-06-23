@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- 背景圆 -->
+  <circle cx="100" cy="100" r="98" fill="#f5f5f5" stroke="#222" stroke-width="2"/>
+
+  <!-- 头发（蓝色大背头） -->
+  <path d="M 40 95
+           Q 40 50 75 40
+           Q 100 30 125 40
+           Q 160 50 160 95
+           L 160 105
+           Q 140 90 100 90
+           Q 60 90 40 105 Z"
+        fill="#1a3a5c"/>
+
+  <!-- 脸部（米色皮肤） -->
+  <ellipse cx="100" cy="115" rx="40" ry="45" fill="#f4d4b4"/>
+
+  <!-- 红色发带 -->
+  <rect x="38" y="92" width="124" height="6" fill="#d63838"/>
+  <rect x="36" y="88" width="6" height="14" fill="#d63838"/>
+
+  <!-- 眼睛（白色） -->
+  <ellipse cx="82" cy="110" rx="8" ry="9" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+  <ellipse cx="118" cy="110" rx="8" ry="9" fill="#ffffff" stroke="#222" stroke-width="1.5"/>
+
+  <!-- 黑色墨镜镜片（覆盖眼睛） -->
+  <ellipse cx="82" cy="110" rx="7" ry="7" fill="#1a1a1a"/>
+  <ellipse cx="118" cy="110" rx="7" ry="7" fill="#1a1a1a"/>
+
+  <!-- 墨镜高光 -->
+  <ellipse cx="79" cy="107" rx="2" ry="1.5" fill="#ffffff" opacity="0.4"/>
+  <ellipse cx="115" cy="107" rx="2" ry="1.5" fill="#ffffff" opacity="0.4"/>
+
+  <!-- 鼻 -->
+  <path d="M 100 118 Q 102 125 100 130 Q 98 132 96 130" stroke="#222" stroke-width="1" fill="none"/>
+
+  <!-- 嘴（微笑） -->
+  <path d="M 88 142 Q 100 150 112 142" stroke="#222" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- 耳朵 -->
+  <ellipse cx="58" cy="118" rx="5" ry="9" fill="#f4d4b4"/>
+  <ellipse cx="142" cy="118" rx="5" ry="9" fill="#f4d4b4"/>
+
+  <!-- 耳朵阴影 -->
+  <ellipse cx="58" cy="118" rx="2" ry="5" fill="#e0b894"/>
+  <ellipse cx="142" cy="118" rx="2" ry="5" fill="#e0b894"/>
+
+  <!-- 围嘴（红色） - 简化成围巾 -->
+  <path d="M 65 158
+           Q 70 165 80 168
+           L 120 168
+           Q 130 165 135 158
+           L 130 175
+           L 70 175 Z"
+        fill="#d63838"/>
+
+  <!-- 胸口 X 形绷带 -->
+  <rect x="85" y="170" width="30" height="6" fill="#f5f5f5" stroke="#888" stroke-width="0.5" transform="rotate(30 100 173)"/>
+  <rect x="85" y="170" width="30" height="6" fill="#f5f5f5" stroke="#888" stroke-width="0.5" transform="rotate(-30 100 173)"/>
+
+  <!-- 整体加个轻微圆角 -->
+  <circle cx="100" cy="100" r="98" fill="none" stroke="#222" stroke-width="2"/>
+</svg>
